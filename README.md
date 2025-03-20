@@ -24,13 +24,10 @@ This project uses OpenCV and deep learning models to detect faces in images and 
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/face-detection-age-gender-prediction.git
-    cd face-detection-age-gender-prediction
+    git clone https://github.com/LasithaAmarasinghe/Gender-and-age-prediction.git
     ```
 
 2. **Install dependencies**:
-
-    If you have a `requirements.txt` file, run the following to install the necessary libraries:
 
     ```bash
     pip install -r requirements.txt
@@ -41,8 +38,6 @@ This project uses OpenCV and deep learning models to detect faces in images and 
     - **Face Detection Model**: `opencv_face_detector.pbtxt` and `opencv_face_detector_uint8.pb`
     - **Age Model**: `age_deploy.prototxt` and `age_net.caffemodel`
     - **Gender Model**: `gender_deploy.prototxt` and `gender_net.caffemodel`
-
-    Download these models and place them in the appropriate directories, as indicated in the code (`age_deploy.prototxt`, `gender_deploy.prototxt`, etc.).
 
 4. **Prepare your image folder**:
 
