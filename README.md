@@ -1,6 +1,6 @@
 # Gender-&-Age-Prediction 👦👧👩‍🦳🧔
 
-This project uses OpenCV and deep learning models to detect faces in images and predict their age and gender. The results are displayed on the image and saved in a designated folder.
+This project uses OpenCV and deep learning models to detect faces in images and predict their age and gender.
 
 ## Features ✨
 
