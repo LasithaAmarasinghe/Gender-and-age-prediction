@@ -75,4 +75,4 @@ This project uses several pre-trained models to perform face detection, age pred
 
 ## License 📝
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](MIT-LICENSE.txt) file for details.
