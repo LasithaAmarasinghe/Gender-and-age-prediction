@@ -57,3 +57,22 @@ This project uses OpenCV and deep learning models to detect faces in images and 
     - Annotates the image with the predicted age and gender.
 3. **Step 3**: The script saves the processed image in the `detected_images` folder.
 
+## Models Used
+
+This project uses several pre-trained models to perform face detection, age prediction, and gender prediction.
+
+### 1. **Face Detection Model**
+- **`opencv_face_detector.pbtxt`**: This is the **configuration file** that defines the architecture of the face detection model. It specifies the layers, input sizes, and other necessary parameters to initialize the face detection network.
+- **`opencv_face_detector_uint8.pb`**: This is the **pre-trained model file** containing the weights and parameters of the face detection network. It was trained on a large dataset and is capable of detecting faces in images.
+
+### 2. **Age Prediction Model**
+- **`age_deploy.prototxt`**: This is the **configuration file** that defines the architecture of the age prediction network. It includes details about the layers and the input structure.
+- **`age_net.caffemodel`**: This is the **pre-trained model file** that contains the learned weights for the age prediction network. It was trained on a dataset that classifies ages into different ranges.
+
+### 3. **Gender Prediction Model**
+- **`gender_deploy.prototxt`**: This is the **configuration file** for the gender prediction network. It contains the model's architecture, including layer definitions and input configurations.
+- **`gender_net.caffemodel`**: This is the **pre-trained model file** containing the learned weights for the gender prediction network. It classifies faces into two categories: Male and Female.
+
+
+
+
