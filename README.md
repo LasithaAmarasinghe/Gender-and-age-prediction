@@ -47,3 +47,13 @@ This project uses OpenCV and deep learning models to detect faces in images and 
 5. **Create the output folder**:
 
     - The processed images will be saved in the `detected_images` folder. This folder will be created automatically if it does not exist.
+  
+## How This Works
+
+1. **Step 1**: The script loads pre-trained deep learning models for face detection, age prediction, and gender prediction.
+2. **Step 2**: It processes each image in the `images` folder:
+    - Detects faces using the OpenCV DNN model.
+    - For each detected face, it uses the age and gender models to predict the corresponding values.
+    - Annotates the image with the predicted age and gender.
+3. **Step 3**: The script saves the processed image in the `detected_images` folder.
+
